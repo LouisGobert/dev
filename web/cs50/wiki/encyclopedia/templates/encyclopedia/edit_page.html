@@ -1,0 +1,23 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Edit page - {{input_entry}}
+{% endblock %}
+
+{% block body %}
+    <h1>Edit page: {{ input_entry}}</h1>
+    
+    <form id="new_page" action="{% url 'edit_page' input_entry %}" method="post">
+        {% csrf_token %}
+        <input type="hidden" value="{{ input_entry }}" name="title">
+        <label for="id_content">Content:</label>
+        <textarea id="id_content" name="content" required>{{ content }}</textarea>
+
+        <input type="submit" value="Save">
+    </form>
+
+    
+
+    <a id="cancel_new_page" href="{% url 'content' input_entry %}" onclick="return confirm('Are you sure?')">View entries (Cancel)</a>
+
+{% endblock %}

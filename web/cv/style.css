@@ -1,0 +1,147 @@
+body {
+    background: #1c2128;
+    font-family: Arial, Helvetica, monospace;
+    color: #FFFFFF;
+    opacity: .87;
+}
+
+
+h1 {
+    
+    text-align: center;
+    padding: 20px;
+    width: 620px;
+    margin: auto;
+
+    background: #737374;;
+}
+
+.who_i_am {
+    text-align: center;
+    width: 1240px;
+    margin: auto;
+}
+
+.who_i_am > p {
+    display: block;
+    width: 90%;
+    text-align: justify;
+    padding: 0 20px 5px 20px;
+    margin: auto;
+}
+
+
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 1240px;
+    margin: auto;
+}
+
+.flex_container > div {
+    
+    width: calc(50% - 41px);
+    min-width: 340px;
+    padding: 0 20px;
+}
+
+.flex_container > div > h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 1240px) {
+    .who_i_am  {
+        width: 90%;
+        background-color: #7F9A63;
+    }
+
+    .flex_container {
+        width: 90%;
+        align-items: center;
+    }
+
+
+    .flex_container > div {
+        width: 100%;
+    }
+}
+
+
+.contact > h2 {
+    text-align: center;
+    padding: 15px;
+    left: 0;
+    right: 0;
+    width: 220px;
+    margin: 0 auto;
+
+    background: #7F9A63;
+}
+
+.date_desc_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.date {
+    margin: 0 20px 0 40px;
+    color: #4e5f79;
+    font-weight: bold;
+}
+
+.desc {
+    flex-basis: 80%;
+    padding: 0 0 0 40px;
+}
+
+.desc > p{
+   
+    margin: 0px;
+    flex-grow: 2;
+}
+
+
+.score_bar {
+    box-sizing: border-box;
+    width: 60%;
+    background-color: #754345;
+    border-radius: 12px;
+    margin-right: 40px;
+}
+
+#score_algo { width: 70%; }
+#score_cs { width: 70%; }
+#score_python { width: 70%; }
+#score_sql { width: 70%; }
+#score_francais { width: 90%; }
+#score_anglais { width: 65%; }
+
+.score_bar > div {
+    background-color: #7F9A63 ;
+    border-radius: 25px 0px 0px 25px;
+    text-align: right;
+    padding: 3px 10px;
+}
+
+
+.score_flex_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.score_type {
+    width: 22%;
+    font-weight: bolder;
+    margin-left: 40px;
+    text-align: right;
+}
+
