@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\LinkedList">
+      <UniqueIdentifier>{f248ca7c-8d16-4a07-8f54-4ec178b51645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Util">
+      <UniqueIdentifier>{7b5503b2-9da0-46c5-b4eb-05f3896a3b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Util">
+      <UniqueIdentifier>{7d0ea528-ebda-43db-a20c-afe076e5fbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Other">
+      <UniqueIdentifier>{73e92a1c-8f3a-441a-a6aa-b04dad0f103e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TreeNode">
+      <UniqueIdentifier>{5e611c9a-f384-4c06-99be-d69c9d030a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Array">
+      <UniqueIdentifier>{537a5a8c-274e-4cd0-9316-f1d400bd8d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Test">
+      <UniqueIdentifier>{711cd9df-1c93-4e04-bd40-35f00da11fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Test">
+      <UniqueIdentifier>{0897671e-c667-48bd-a217-7d5851f43186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Trie">
+      <UniqueIdentifier>{f8bb3298-1495-420b-bc45-87a415a02d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\QueueAndStack">
+      <UniqueIdentifier>{197e9347-a183-4a0f-964d-76458276c899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\String">
+      <UniqueIdentifier>{d65f0e46-d56d-49bb-b04e-52c569ceee20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="array.c">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="string_util.c">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="add_two_number.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="design_linked_list.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="intersection_of_two_linked_lists.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="intersection_of_two_linked_lists_V2.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="linked_list_cycle.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="linked_list_cycle_II.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="odd_even_linked_list.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_linked_list_elements.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse_linked_list.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="merge_two_sorted_lists.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="palindrome_linked_list.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="remove-nth_node_from_end of_list.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse_string_II.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="decrypt_string_from_alphabet_to_integer_mapping.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse_word_in_a_string_III.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="shuffle_string.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="unique_email_adress.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="string_to_integer.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="split_a_string_in_balanced_strings.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="complement_of_base_10_integer.c">
+      <Filter>Fichiers sources\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="number_of_recent_calls.c">
+      <Filter>Fichiers sources\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_tree_preorder_traversal.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_tree_inorder_traversal.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_tree_postorder_traversal.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="maximum_depth_of_binary_tree.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="path_sum.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="buddy_strings.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="divide_to_integer.c">
+      <Filter>Fichiers sources\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_list.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListTest.c">
+      <Filter>Fichiers sources\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.c">
+      <Filter>Fichiers sources\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="rotate_array.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="valid_mountain_array.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="replace_elements_with_greatest_element_on_right_side.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="search_a_2d_matrix.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchAlgorithmeTest.c">
+      <Filter>Fichiers sources\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchAlgorithme.c">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeAllTest.c">
+      <Filter>Fichiers sources\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="repeated_dna_sequences.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="implement_trie.c">
+      <Filter>Fichiers sources\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMap.c">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="implement_trie_VII.c">
+      <Filter>Fichiers sources\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="map_sum_pairs.c">
+      <Filter>Fichiers sources\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="rotate_image.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="move_zeroes.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="best_time_to_buy_and_sell_stock_II.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse_interger.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="replace_words.c">
+      <Filter>Fichiers sources\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="Trie.c">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="minimum_depth_of_binary_tree.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="design_circular_queue.c">
+      <Filter>Fichiers sources\QueueAndStack</Filter>
+    </ClCompile>
+    <ClCompile Include="min_stack.c">
+      <Filter>Fichiers sources\QueueAndStack</Filter>
+    </ClCompile>
+    <ClCompile Include="valid_parentheses.c">
+      <Filter>Fichiers sources\QueueAndStack</Filter>
+    </ClCompile>
+    <ClCompile Include="product_of_array_exept_self.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="convert_binary_number_in_linked_list_to_integer.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="insertion_sort_list.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="jump_game.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="consecutive_character.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="swap_nodes_in_pairs.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="pascals_triangle.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="pascals_triangle_II.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="minimum_cost_to_move_chips_to_the_same_position.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="median_of_two_sorted_array.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="palindrome_number.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="design_a_stack_with_increment_operation.c">
+      <Filter>Fichiers sources\QueueAndStack</Filter>
+    </ClCompile>
+    <ClCompile Include="longest_common_prefix.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="valid_number.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="find_the_smallest_divisor_given_a_threshold.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="largest_time_for_given_digits.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="permutations.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="permutation_sequence.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="add_two_number_II.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="fizz_buzz.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="jewels_and_stone.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="find_the_difference.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="power_of_four.c">
+      <Filter>Fichiers sources\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="number_of_1_bits.c">
+      <Filter>Fichiers sources\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_tree_tilt.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="number_of_step_to_reduce_a_number_to_zero.c">
+      <Filter>Fichiers sources\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="minimum_time_visiting_all_points.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse_bit.c">
+      <Filter>Fichiers sources\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="how_hany_numbers_are_smaller_than_the_current_number.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="maximum_difference_between_node_and_ancestor.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="add_binary.c">
+      <Filter>Fichiers sources\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="add_to_array_form_of_integer.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="add_strings.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="flipping_a_image.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="middle_of_the_linked_list.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_duplicates_from_linked_list.c">
+      <Filter>Fichiers sources\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="populating_next_right_pointers_in_each_node.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_tree_level_order_traversal.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="symmetric_tree.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="populating_next_right_pointers_in_each_node_II.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="validate_binary_search_tree.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="search_in_a_binary_serach_tree.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Autre.c">
+      <Filter>Fichiers sources\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="pairs_of_songs_with_total_durations_divisible_by_60.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.c">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_duplicate_from_sorted_array_II.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_all_adjecent_duplicate_in_string.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_array_by_parity.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="increasing_triplet_subsequence.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="height_checker.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="third_maximum_number.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="find_all_number_disappeared_in_a_array.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_duplicate_from_sorted_array.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="decoded_string_at_index.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="valid_anagram.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="valid_palindrome.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="count_and_say.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="first_bad_version.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="range_sum_of_bst.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="balenced_binary_tree.c">
+      <Filter>Fichiers sources\TreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="letter_combinations_of_a_phone_number.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="number_of_islands.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="word_search.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="word_search_II.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+    <ClCompile Include="design_add_and_search_words_data_structure.c">
+      <Filter>Fichiers sources\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="count_primes.c">
+      <Filter>Fichiers sources\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="majority_element.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="majority_element_II.c">
+      <Filter>Fichiers sources\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="excel_sheet_column_number.c">
+      <Filter>Fichiers sources\String</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="array.h">
+      <Filter>Fichiers d%27en-tête\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="string_util.h">
+      <Filter>Fichiers d%27en-tête\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>Fichiers d%27en-tête\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListTest.h">
+      <Filter>Fichiers d%27en-tête\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchAlgorithmeTest.h">
+      <Filter>Fichiers d%27en-tête\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchAlgorithme.h">
+      <Filter>Fichiers d%27en-tête\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="HashMap.h">
+      <Filter>Fichiers d%27en-tête\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Trie.h">
+      <Filter>Fichiers d%27en-tête\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="min_stack.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Fichiers d%27en-tête\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f33c4342-f88e-42fe-b3ae-a2913bbedf03}</ProjectGuid>
+    <RootNamespace>LeetCode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="add_binary.c" />
+    <ClCompile Include="add_strings.c" />
+    <ClCompile Include="add_to_array_form_of_integer.c" />
+    <ClCompile Include="add_two_number.c" />
+    <ClCompile Include="add_two_number_II.c" />
+    <ClCompile Include="array.c" />
+    <ClCompile Include="Autre.c" />
+    <ClCompile Include="balenced_binary_tree.c" />
+    <ClCompile Include="best_time_to_buy_and_sell_stock_II.c" />
+    <ClCompile Include="binary_tree_inorder_traversal.c" />
+    <ClCompile Include="binary_tree_level_order_traversal.c" />
+    <ClCompile Include="binary_tree_postorder_traversal.c" />
+    <ClCompile Include="binary_tree_preorder_traversal.c" />
+    <ClCompile Include="binary_tree_tilt.c" />
+    <ClCompile Include="buddy_strings.c" />
+    <ClCompile Include="complement_of_base_10_integer.c" />
+    <ClCompile Include="consecutive_character.c" />
+    <ClCompile Include="convert_binary_number_in_linked_list_to_integer.c" />
+    <ClCompile Include="count_and_say.c" />
+    <ClCompile Include="count_primes.c" />
+    <ClCompile Include="decoded_string_at_index.c" />
+    <ClCompile Include="decrypt_string_from_alphabet_to_integer_mapping.c" />
+    <ClCompile Include="design_add_and_search_words_data_structure.c" />
+    <ClCompile Include="design_a_stack_with_increment_operation.c" />
+    <ClCompile Include="design_circular_queue.c" />
+    <ClCompile Include="design_linked_list.c" />
+    <ClCompile Include="divide_to_integer.c" />
+    <ClCompile Include="excel_sheet_column_number.c" />
+    <ClCompile Include="find_all_number_disappeared_in_a_array.c" />
+    <ClCompile Include="find_the_difference.c" />
+    <ClCompile Include="find_the_smallest_divisor_given_a_threshold.c" />
+    <ClCompile Include="first_bad_version.c" />
+    <ClCompile Include="fizz_buzz.c" />
+    <ClCompile Include="flipping_a_image.c" />
+    <ClCompile Include="HashMap.c" />
+    <ClCompile Include="height_checker.c" />
+    <ClCompile Include="how_hany_numbers_are_smaller_than_the_current_number.c" />
+    <ClCompile Include="implement_trie.c" />
+    <ClCompile Include="implement_trie_VII.c" />
+    <ClCompile Include="increasing_triplet_subsequence.c" />
+    <ClCompile Include="insertion_sort_list.c" />
+    <ClCompile Include="intersection_of_two_linked_lists.c" />
+    <ClCompile Include="intersection_of_two_linked_lists_V2.c" />
+    <ClCompile Include="jewels_and_stone.c" />
+    <ClCompile Include="jump_game.c" />
+    <ClCompile Include="largest_time_for_given_digits.c" />
+    <ClCompile Include="letter_combinations_of_a_phone_number.c" />
+    <ClCompile Include="LinkedList.c" />
+    <ClCompile Include="LinkedListTest.c" />
+    <ClCompile Include="linked_list_cycle.c" />
+    <ClCompile Include="linked_list_cycle_II.c" />
+    <ClCompile Include="longest_common_prefix.c" />
+    <ClCompile Include="majority_element.c" />
+    <ClCompile Include="majority_element_II.c" />
+    <ClCompile Include="MakeAllTest.c" />
+    <ClCompile Include="map_sum_pairs.c" />
+    <ClCompile Include="Math.c" />
+    <ClCompile Include="maximum_depth_of_binary_tree.c" />
+    <ClCompile Include="maximum_difference_between_node_and_ancestor.c" />
+    <ClCompile Include="median_of_two_sorted_array.c" />
+    <ClCompile Include="merge_two_sorted_lists.c" />
+    <ClCompile Include="middle_of_the_linked_list.c" />
+    <ClCompile Include="minimum_cost_to_move_chips_to_the_same_position.c" />
+    <ClCompile Include="minimum_depth_of_binary_tree.c" />
+    <ClCompile Include="minimum_time_visiting_all_points.c" />
+    <ClCompile Include="min_stack.c" />
+    <ClCompile Include="move_zeroes.c" />
+    <ClCompile Include="number_of_1_bits.c" />
+    <ClCompile Include="number_of_islands.c" />
+    <ClCompile Include="number_of_recent_calls.c" />
+    <ClCompile Include="number_of_step_to_reduce_a_number_to_zero.c" />
+    <ClCompile Include="odd_even_linked_list.c" />
+    <ClCompile Include="pairs_of_songs_with_total_durations_divisible_by_60.c" />
+    <ClCompile Include="palindrome_linked_list.c" />
+    <ClCompile Include="palindrome_number.c" />
+    <ClCompile Include="pascals_triangle.c" />
+    <ClCompile Include="pascals_triangle_II.c" />
+    <ClCompile Include="path_sum.c" />
+    <ClCompile Include="permutations.c" />
+    <ClCompile Include="permutation_sequence.c" />
+    <ClCompile Include="populating_next_right_pointers_in_each_node.c" />
+    <ClCompile Include="populating_next_right_pointers_in_each_node_II.c" />
+    <ClCompile Include="power_of_four.c" />
+    <ClCompile Include="product_of_array_exept_self.c" />
+    <ClCompile Include="range_sum_of_bst.c" />
+    <ClCompile Include="remove-nth_node_from_end of_list.c" />
+    <ClCompile Include="remove_all_adjecent_duplicate_in_string.c" />
+    <ClCompile Include="remove_duplicates_from_linked_list.c" />
+    <ClCompile Include="remove_duplicate_from_sorted_array.c" />
+    <ClCompile Include="remove_duplicate_from_sorted_array_II.c" />
+    <ClCompile Include="remove_linked_list_elements.c" />
+    <ClCompile Include="repeated_dna_sequences.c" />
+    <ClCompile Include="replace_elements_with_greatest_element_on_right_side.c" />
+    <ClCompile Include="replace_words.c" />
+    <ClCompile Include="reverse_bit.c" />
+    <ClCompile Include="reverse_interger.c" />
+    <ClCompile Include="reverse_linked_list.c" />
+    <ClCompile Include="reverse_string_II.c" />
+    <ClCompile Include="reverse_word_in_a_string_III.c" />
+    <ClCompile Include="rotate_array.c" />
+    <ClCompile Include="rotate_image.c" />
+    <ClCompile Include="SearchAlgorithme.c" />
+    <ClCompile Include="SearchAlgorithmeTest.c" />
+    <ClCompile Include="search_a_2d_matrix.c" />
+    <ClCompile Include="search_in_a_binary_serach_tree.c" />
+    <ClCompile Include="shuffle_string.c" />
+    <ClCompile Include="sort_array_by_parity.c" />
+    <ClCompile Include="sort_list.c" />
+    <ClCompile Include="split_a_string_in_balanced_strings.c" />
+    <ClCompile Include="string_util.c" />
+    <ClCompile Include="string_to_integer.c" />
+    <ClCompile Include="swap_nodes_in_pairs.c" />
+    <ClCompile Include="symmetric_tree.c" />
+    <ClCompile Include="third_maximum_number.c" />
+    <ClCompile Include="Trie.c" />
+    <ClCompile Include="unique_email_adress.c" />
+    <ClCompile Include="unit.c" />
+    <ClCompile Include="validate_binary_search_tree.c" />
+    <ClCompile Include="valid_anagram.c" />
+    <ClCompile Include="valid_mountain_array.c" />
+    <ClCompile Include="valid_number.c" />
+    <ClCompile Include="valid_palindrome.c" />
+    <ClCompile Include="valid_parentheses.c" />
+    <ClCompile Include="word_search.c" />
+    <ClCompile Include="word_search_II.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="array.h" />
+    <ClInclude Include="HashMap.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="LinkedListTest.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="min_stack.h" />
+    <ClInclude Include="SearchAlgorithme.h" />
+    <ClInclude Include="SearchAlgorithmeTest.h" />
+    <ClInclude Include="string_util.h" />
+    <ClInclude Include="Trie.h" />
+    <ClInclude Include="unit.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
