@@ -1,0 +1,5 @@
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Release\netcoreapp3.1\publish\TimerGenerator.exe
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Release\netcoreapp3.1\publish\TimerGenerator.dll
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Release\netcoreapp3.1\publish\TimerGenerator.deps.json
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Release\netcoreapp3.1\publish\TimerGenerator.runtimeconfig.json
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Release\netcoreapp3.1\publish\TimerGenerator.pdb

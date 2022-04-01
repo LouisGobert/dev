@@ -1,0 +1,2 @@
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Release\netcoreapp3.1\publish\TimerGenerator.pdb
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Release\netcoreapp3.1\publish\TimerGenerator.exe

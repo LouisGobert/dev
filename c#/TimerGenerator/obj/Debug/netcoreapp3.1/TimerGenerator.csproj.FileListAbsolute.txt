@@ -1,0 +1,15 @@
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Debug\netcoreapp3.1\TimerGenerator.exe
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Debug\netcoreapp3.1\TimerGenerator.deps.json
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Debug\netcoreapp3.1\TimerGenerator.runtimeconfig.json
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Debug\netcoreapp3.1\TimerGenerator.runtimeconfig.dev.json
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Debug\netcoreapp3.1\TimerGenerator.dll
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\bin\Debug\netcoreapp3.1\TimerGenerator.pdb
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\obj\Debug\netcoreapp3.1\TimerGenerator.Form1.resources
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\obj\Debug\netcoreapp3.1\TimerGenerator.csproj.GenerateResource.cache
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\obj\Debug\netcoreapp3.1\TimerGenerator.AssemblyInfoInputs.cache
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\obj\Debug\netcoreapp3.1\TimerGenerator.AssemblyInfo.cs
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\obj\Debug\netcoreapp3.1\TimerGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\obj\Debug\netcoreapp3.1\TimerGenerator.dll
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\obj\Debug\netcoreapp3.1\TimerGenerator.pdb
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\obj\Debug\netcoreapp3.1\TimerGenerator.genruntimeconfig.cache
+C:\Users\Louis\Desktop\dev\c#\TimerGenerator\obj\Debug\netcoreapp3.1\TimerGenerator.csprojAssemblyReference.cache
