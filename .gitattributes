@@ -1,1 +1,2 @@
-tools/* linguist-vendored=false
+*.js linguist-vendored=false
+*.md linguist-vendored=false
