@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SY13glKFqdVr932WmaV0pmPmfGbcgFuYoQ1hytPZQIUdItR5Ln5Qtlv59cUN2Dj5u/UvpM7yEHdyqC7rb58D1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Louis\\Desktop\\dev\\c#\\RootMe\\IRC_La_Roue_Romaine\\IRC_La_Roue_Romaine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Louis\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Louis\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

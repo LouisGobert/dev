@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "N5hDTy0ph1hLDmY4Qa5/wWWz+cR3Syr2wDq2IU6bHcItRKxAC2wxs4ritZVQc13YzhPl01B3v0e3PUZ7FXeO+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Louis\\Desktop\\dev\\c#\\RootMe\\IRC_Chaine_Encodée\\IRC_Chaine_Encodée.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Louis\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Louis\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

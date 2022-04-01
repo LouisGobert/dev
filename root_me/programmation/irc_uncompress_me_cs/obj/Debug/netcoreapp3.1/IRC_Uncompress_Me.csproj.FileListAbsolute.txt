@@ -1,0 +1,13 @@
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\bin\Debug\netcoreapp3.1\IRC_Uncompress_Me.exe
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\bin\Debug\netcoreapp3.1\IRC_Uncompress_Me.deps.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\bin\Debug\netcoreapp3.1\IRC_Uncompress_Me.runtimeconfig.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\bin\Debug\netcoreapp3.1\IRC_Uncompress_Me.runtimeconfig.dev.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\bin\Debug\netcoreapp3.1\IRC_Uncompress_Me.dll
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\bin\Debug\netcoreapp3.1\IRC_Uncompress_Me.pdb
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\obj\Debug\netcoreapp3.1\IRC_Uncompress_Me.csprojAssemblyReference.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\obj\Debug\netcoreapp3.1\IRC_Uncompress_Me.AssemblyInfoInputs.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\obj\Debug\netcoreapp3.1\IRC_Uncompress_Me.AssemblyInfo.cs
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\obj\Debug\netcoreapp3.1\IRC_Uncompress_Me.csproj.CoreCompileInputs.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\obj\Debug\netcoreapp3.1\IRC_Uncompress_Me.dll
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\obj\Debug\netcoreapp3.1\IRC_Uncompress_Me.pdb
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Uncompress_Me\obj\Debug\netcoreapp3.1\IRC_Uncompress_Me.genruntimeconfig.cache

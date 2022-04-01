@@ -1,0 +1,13 @@
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\bin\Debug\netcoreapp3.1\IRC_Retour_au_collège.exe
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\bin\Debug\netcoreapp3.1\IRC_Retour_au_collège.deps.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\bin\Debug\netcoreapp3.1\IRC_Retour_au_collège.runtimeconfig.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\bin\Debug\netcoreapp3.1\IRC_Retour_au_collège.runtimeconfig.dev.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\bin\Debug\netcoreapp3.1\IRC_Retour_au_collège.dll
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\bin\Debug\netcoreapp3.1\IRC_Retour_au_collège.pdb
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\obj\Debug\netcoreapp3.1\IRC_Retour_au_collège.csprojAssemblyReference.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\obj\Debug\netcoreapp3.1\IRC_Retour_au_collège.AssemblyInfoInputs.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\obj\Debug\netcoreapp3.1\IRC_Retour_au_collège.AssemblyInfo.cs
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\obj\Debug\netcoreapp3.1\IRC_Retour_au_collège.csproj.CoreCompileInputs.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\obj\Debug\netcoreapp3.1\IRC_Retour_au_collège.dll
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\obj\Debug\netcoreapp3.1\IRC_Retour_au_collège.pdb
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Retour_au_collège\obj\Debug\netcoreapp3.1\IRC_Retour_au_collège.genruntimeconfig.cache

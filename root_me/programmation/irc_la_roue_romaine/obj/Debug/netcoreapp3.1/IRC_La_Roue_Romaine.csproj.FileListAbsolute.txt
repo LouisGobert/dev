@@ -1,0 +1,13 @@
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\bin\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.exe
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\bin\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.deps.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\bin\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.runtimeconfig.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\bin\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.runtimeconfig.dev.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\bin\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.dll
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\bin\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.pdb
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\obj\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.csprojAssemblyReference.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\obj\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.AssemblyInfoInputs.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\obj\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.AssemblyInfo.cs
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\obj\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.csproj.CoreCompileInputs.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\obj\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.dll
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\obj\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.pdb
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_La_Roue_Romaine\obj\Debug\netcoreapp3.1\IRC_La_Roue_Romaine.genruntimeconfig.cache

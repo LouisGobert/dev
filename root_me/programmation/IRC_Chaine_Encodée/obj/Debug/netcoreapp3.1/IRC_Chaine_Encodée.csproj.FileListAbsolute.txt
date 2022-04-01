@@ -1,0 +1,13 @@
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\bin\Debug\netcoreapp3.1\IRC_Chaine_Encodée.exe
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\bin\Debug\netcoreapp3.1\IRC_Chaine_Encodée.deps.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\bin\Debug\netcoreapp3.1\IRC_Chaine_Encodée.runtimeconfig.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\bin\Debug\netcoreapp3.1\IRC_Chaine_Encodée.runtimeconfig.dev.json
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\bin\Debug\netcoreapp3.1\IRC_Chaine_Encodée.dll
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\bin\Debug\netcoreapp3.1\IRC_Chaine_Encodée.pdb
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\obj\Debug\netcoreapp3.1\IRC_Chaine_Encodée.csprojAssemblyReference.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\obj\Debug\netcoreapp3.1\IRC_Chaine_Encodée.AssemblyInfoInputs.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\obj\Debug\netcoreapp3.1\IRC_Chaine_Encodée.AssemblyInfo.cs
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\obj\Debug\netcoreapp3.1\IRC_Chaine_Encodée.csproj.CoreCompileInputs.cache
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\obj\Debug\netcoreapp3.1\IRC_Chaine_Encodée.dll
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\obj\Debug\netcoreapp3.1\IRC_Chaine_Encodée.pdb
+C:\Users\Louis\Desktop\dev\c#\RootMe\IRC_Chaine_Encodée\obj\Debug\netcoreapp3.1\IRC_Chaine_Encodée.genruntimeconfig.cache
