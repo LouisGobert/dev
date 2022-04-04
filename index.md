@@ -22,7 +22,7 @@ Lors d'un appel vidéo on ligne :
 
 ### Exemple add-on result
 
-https://user-images.githubusercontent.com/45512639/161617471-7c407306-c874-4313-95ec-744af9604912.mov
+[See demo](https://user-images.githubusercontent.com/45512639/161617471-7c407306-c874-4313-95ec-744af9604912.mov)
 
 ### Team member
 
