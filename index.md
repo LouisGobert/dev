@@ -6,7 +6,7 @@ Here is the list of my three biggest projects :
   - [StravaUpgrade](#stravaupgrade)
 
 ## Odoo Hackaton - Deep Focus
-### _The tool to monitor an online class attention rate_
+### _The tool to monitor an online class attention rate_ 
 [**See on Github**](https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main)
 ![demo](https://user-images.githubusercontent.com/45512639/162265905-93180080-c051-4cc0-92cb-f1c385a9351a.png)
 
@@ -59,8 +59,9 @@ You can now launch the api/main.py and scraping/main.py from the backend and voi
 
 
 ## FanucFastDev
-
 FanucFastdev is a tool developed to convert a C# program into a Fanuc program (.LS).
+[**See on Github**](https://github.com/LouisGobert/FanucFastDev)
+
 ### Exemple
 #### Input
    ```csharp
