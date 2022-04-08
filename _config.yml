@@ -3,11 +3,7 @@ title: Louis Gobert Dev Project
 google_analytics: G-D4RBV91XWQ
 
 github:
-  repository_url: fr/cv.html
-  name: Curriculum vitæ
-
-
-
+  is_project_page: false
 
 
 
