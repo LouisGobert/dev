@@ -6,13 +6,11 @@ github:
   repository_url: fr/cv.html
   title: Curriculum vitæ
 
+buttons:
+  test:
 
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+
+
 
 plugins:
   - jekyll-paginate
