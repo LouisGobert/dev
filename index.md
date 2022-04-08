@@ -269,6 +269,9 @@ P[3]{
 ### _Docs to be implemented soon_
 
 ## StravaUpgrade
+### _Monitor your Strava activities_
+### What is it ?
+This application allows us to connect to our strava account via the official Srava REST API. Then download the GPX tracks of the courses to create a heatmap. I also download different statistics (number of km run, elevation gain, time, caridactic frequency,...) that I store in a TimeSeries Database (InfluxDB) in order to create visualizations in Grafana.
 
 #### _SOON: This project is currently in private mode, I have to check that no file containing a connection cookie is present._
 
