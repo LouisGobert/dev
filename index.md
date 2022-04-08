@@ -18,8 +18,13 @@ On this page, you will find the list of my programming projects and a small expl
 
 ### Table of contents
   - [Odoo Hackaton - Deep Focus](#odoo-hackaton---deep-focus)
-  - [FanucFastDev](#fanucfastdev)
-  - [StravaUpgrade](#stravaupgrade)
+  - [Fanuc Fast Dev](#fanucfastdev)
+  - [Robotic Chess](#robotic-chess)
+  - [Strava Upgrade](#stravaupgrade)
+  - [Timer Generator](#timer-generator)
+  - [Balle Hit](#balle-hit)
+  - [Other small programs](#other-small-programs)
+
 
 ## Odoo Hackaton - Deep Focus
 ### _The tool to monitor an online class attention rate_ 
@@ -67,10 +72,10 @@ And to add the /dist folder to chrome
 You can now launch the api/main.py and scraping/main.py from the backend and voila
 
 ### The developer
-| Breuil Alexandre | Louis Gobert | Tatiana Dehon|
-|--|--|--|
-| [GitHub](https://github.com/Xander-Br) | [GitHub](https://github.com/LouisGobert) | [GitHub](https://github.com/Titania7) |
-| [LinkedIn](https://www.linkedin.com/in/alexandre-breuil-2003/) | [LinkedIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)| [LinkedIn](https://www.linkedin.com/in/tatiana-dehon-62ba43198/) |
+
+- Breuil Alexandre | [GitHub](https://github.com/Xander-Br) | [LinkedIn](https://www.linkedin.com/in/alexandre-breuil-2003/)
+- Tatiana Dehon | [GitHub](https://github.com/Titania7)| [LinkedIn](https://www.linkedin.com/in/tatiana-dehon-62ba43198/) 
+- Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkeIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)
 
 
 
@@ -254,12 +259,31 @@ P[3]{
 };
 /END
 ```
-### The developer, me
-| Louis Gobert | 
-|--|
- [GitHub](https://github.com/LouisGobert) | 
- | [LinkedIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)| 
+### The developer, just me
+
+- Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkedIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)
 
 
- ## StravaUpgrade
- TO DO
+## Robotic Chess
+
+### _Docs to be implemented soon_
+
+## StravaUpgrade
+
+#### _SOON: This project is currently in private mode, I have to check that no file containing a connection cookie is present._
+
+## Timer Generator
+### _Docs to be implemented soon_
+## Balle Hit
+### _Docs to be implemented soon_
+
+## Other small programs
+
+### _[See on Github](https://github.com/LouisGobert/dev)_
+
+The github repository is broken down into several folders
+ - Leetcode
+ - Web
+ - Rootme
+
+
