@@ -5,3 +5,15 @@ google_analytics: G-D4RBV91XWQ
 github:
   repository_url: cv.html
   title: Curriculum vitæ
+
+
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
