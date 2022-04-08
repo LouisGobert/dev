@@ -4,6 +4,7 @@ Here is the list of my three biggest projects :
   - [Odoo Hackaton - Deep Focus](#odoo-hackaton---deep-focus)
   - [FanucFastDev](#fanucfastdev)
   - [StravaUpgrade](#stravaupgrade)
+  - [Test page](test.html)
 
 ## Odoo Hackaton - Deep Focus
 ### _The tool to monitor an online class attention rate_ 
@@ -241,3 +242,7 @@ P[3]{
 |--|
  [GitHub](https://github.com/LouisGobert) | 
  | [LinkedIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)| 
+
+
+ ## StravaUpgrade
+ TO DO
