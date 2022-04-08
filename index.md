@@ -1,6 +1,5 @@
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
     <title>Louis Gobert</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RC6TBBDLY2"></script>
