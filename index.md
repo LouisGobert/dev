@@ -20,7 +20,6 @@ On this page, you will find the list of my programming projects and a small expl
   - [Odoo Hackaton - Deep Focus](#odoo-hackaton---deep-focus)
   - [FanucFastDev](#fanucfastdev)
   - [StravaUpgrade](#stravaupgrade)
-  - [ page](cv.html)
 
 ## Odoo Hackaton - Deep Focus
 ### _The tool to monitor an online class attention rate_ 
