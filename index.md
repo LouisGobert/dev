@@ -12,13 +12,15 @@
   </script>
   </head>
   
-# My projects
+# Welcome
 
-Here is the list of my three biggest projects :
+On this page, you will find the list of my programming projects and a small explanation. There will be first a presentation of my three biggest projects and then a more global project which includes all kinds of small programs created for school, Leetcode, Rootme or other.
+
+### Table of contents
   - [Odoo Hackaton - Deep Focus](#odoo-hackaton---deep-focus)
   - [FanucFastDev](#fanucfastdev)
   - [StravaUpgrade](#stravaupgrade)
-  - [Test page](cv.html)
+  - [ page](cv.html)
 
 ## Odoo Hackaton - Deep Focus
 ### _The tool to monitor an online class attention rate_ 
