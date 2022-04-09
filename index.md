@@ -15,7 +15,7 @@ On this page, you will find the list of my programming projects and a small expl
 
 ## Odoo Hackaton - Deep Focus 
 
-<p style="margin-bottom: 0px>
+<p style="margin-bottom: 0px;">
     <a href="https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main">
     <img src="src/github.png" style="height: 60px">
     </a>
