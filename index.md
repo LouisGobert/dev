@@ -16,7 +16,13 @@ On this page, you will find the list of my programming projects and a small expl
 ## Odoo Hackaton - Deep Focus
 ### _The tool to monitor an online class attention rate_ 
 [**_See on Github_**](https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main)
-![demo](https://user-images.githubusercontent.com/45512639/162265905-93180080-c051-4cc0-92cb-f1c385a9351a.png)
+
+<figure style="text-align: center">
+    <img src="src/classifier_deep_focus.png">
+    <figcaption align = "center">
+        <b>The different classifier used</b>
+        </figcaption>
+</figure>
 
 
 ### What is it ?
@@ -25,7 +31,7 @@ We were a team of 3 and got around 30 hours of development time.
 It's an chrome extension that help the teacher monitor his online class attention rate on Jitsi.
 [Presentation Link](https://www.canva.com/design/DAE8y_2_D1Q/lqdxjrNn8qZnUjsLUs3iMA/view?utm_content=DAE8y_2_D1Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-<figure>
+<figure style="text-align: center">
     <img src="src/addon-deep-focus.gif">
     <figcaption align = "center"><b>Result of the Chrome add-on</b></figcaption>
 </figure>
@@ -256,11 +262,11 @@ P[3]{
 
 ### What is it ?
 This application allows us to connect to our strava account via the official Srava REST API. Then download the GPX tracks of the courses to create a heatmap (with [this plugin](https://github.com/erik/derive)). I also download different statistics (number of km run, elevation gain, time, caridactic frequency,...) that I store in a TimeSeries Database (InfluxDB) in order to create visualizations in Grafana.
-<figure>
+<figure style="text-align: center">
     <img src="src/heatmap.png">
     <figcaption align = "center"><b> Heatmap exemple</b></figcaption>
 </figure>
-<figure>
+<figure style="text-align: center">
     <img src="src/grafana_simple.png">
     <figcaption align = "center"><b>Result in Grafana</b></figcaption>
 </figure>
@@ -272,7 +278,7 @@ This application allows us to connect to our strava account via the official Sra
 
 ## Microcontrollers Timer Generator
 ### _Allows to generate microsecond accurate loops for microcontrollers_
-<figure>
+<figure style="text-align: center">
     <img src="src/timer_nop_generator.gif">
     <figcaption align = "center">
         <b>Example of code generation</b>
@@ -283,7 +289,7 @@ This application allows us to connect to our strava account via the official Sra
 ### _Simple brick-breaking game_
 [**_See on Github_**]()
 
-<figure>
+<figure style="text-align: center">
     <img src="src/balle_hint_game.gif">
     <figcaption align = "center"><b> Heatmap exemple (slow due to the conversion to gif)</b></figcaption>
 </figure>
