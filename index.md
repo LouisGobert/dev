@@ -13,12 +13,13 @@ On this page, you will find the list of my programming projects and a small expl
     - Create the documentation for Robotic Chess 
 
 
-## Odoo Hackaton - Deep Focus <a href="https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main">
+## Odoo Hackaton - Deep Focus 
+
+<a href="https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main">
 <img src="src/github.png" style="height: 60px">
 </a>
 
 ### _The tool to monitor an online class attention rate_ 
-[**_See on Github_**](https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main)
 
 
 <figure style="text-align: center">
