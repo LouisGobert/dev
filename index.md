@@ -1,4 +1,3 @@
-# Louis GObert
 
 On this page, you will find the list of my programming projects and a small explanation. There will be first a presentation of my three biggest projects and then a more global project which includes all kinds of small programs created for school, Leetcode, Rootme or other.
 
