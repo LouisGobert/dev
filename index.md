@@ -7,23 +7,28 @@ On this page, you will find the list of my programming projects and a small expl
   - [Fanuc Fast Dev](#fanucfastdev)
   - [Robotic Chess](#robotic-chess)
   - [Strava Upgrade](#stravaupgrade)
-  - [Timer Generator](#timer-generator)
+  - [Microcontrollers timer generator](#Microcontrollers-timer-generator)
   - [Balle Hit](#balle-hit)
   - [Other small programs](#other-small-programs)
+  - [_In progress_](#in-progress)
 
 
 ## Odoo Hackaton - Deep Focus
 ### _The tool to monitor an online class attention rate_ 
-[**See on Github**](https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main)
+[**_See on Github_**](https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main)
 ![demo](https://user-images.githubusercontent.com/45512639/162265905-93180080-c051-4cc0-92cb-f1c385a9351a.png)
 
 
-Deep focus is a tool developed during the Odoo Hackathon 2022. 
-We were a team of 3 and got around 30 hours of development time
-
 ### What is it ?
+Deep focus is a tool developed during the Odoo Hackathon 2022. 
+We were a team of 3 and got around 30 hours of development time.
 It's an chrome extension that help the teacher monitor his online class attention rate on Jitsi.
 [Presentation Link](https://www.canva.com/design/DAE8y_2_D1Q/lqdxjrNn8qZnUjsLUs3iMA/view?utm_content=DAE8y_2_D1Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<figure>
+    <img src="src/addon-deep-focus.gif">
+    <figcaption align = "center"><b>Result of the Chrome add-on</b></figcaption>
+</figure>
 
 ### Why we got this idea ?
 We are a group of students who all got online class during Covid-19 and for each one of us remarked that a lot of student weren't attentive to the class that the teacher gave.
@@ -80,7 +85,6 @@ FanucFastdev is a tool developed to convert a C# program into a Fanuc program (.
         ProgramInfo.groupMask = "1,*,*,*,*";
         ProgramInfo.type = TP_PROGRAM;
         ProgramInfo.keepBlankLine = true;
-
         run("T_REPLI");
 
         Flag flagDemandeQualite = F[1];
@@ -97,23 +101,18 @@ FanucFastdev is a tool developed to convert a C# program into a Fanuc program (.
         Uframe.set(frameOrange);
         Utool.set(toolPince);
         T_OUV_PINCE();
-
         Pos pApproche = new Pos(1);
         move.joint(pApproche, 100, 50);
         Pos jRepli = new Pos(2);
-        
         Pos pPrise = new Pos(3);
-
         PosReg pCalculer = PR[12];
         pCalculer.Desc = "Point calcule";
         PosReg pTemp = PR[11];
         pCalculer.set(pTemp);
-
         move.joint(jRepli, 12, 100);
         move.linear(pPrise, 123, FINE);
         print("Prise de la piece");
         T_FERM_PINCE();
-
         move.linear(pApproche, 12, FINE);
         move.joint(jRepli, 12, FINE);
 
@@ -129,7 +128,6 @@ FanucFastdev is a tool developed to convert a C# program into a Fanuc program (.
             goto autreLabel;
         }
     autreLabel:
-
         if (RO[1].State == OFF)
         {
             print("Fermer");
@@ -138,10 +136,8 @@ FanucFastdev is a tool developed to convert a C# program into a Fanuc program (.
         {
             print("12 fermer");
         }
-
     lablTest:
         print("Arrive au label");
-
     }
 ```
 
@@ -259,15 +255,40 @@ P[3]{
 
 
 ### What is it ?
-This application allows us to connect to our strava account via the official Srava REST API. Then download the GPX tracks of the courses to create a heatmap. I also download different statistics (number of km run, elevation gain, time, caridactic frequency,...) that I store in a TimeSeries Database (InfluxDB) in order to create visualizations in Grafana.
-![heatmap](https://user-images.githubusercontent.com/45512639/162544548-a4647697-d918-4214-b074-9abf1f9233a7.png)
+This application allows us to connect to our strava account via the official Srava REST API. Then download the GPX tracks of the courses to create a heatmap (with [this plugin](https://github.com/erik/derive)). I also download different statistics (number of km run, elevation gain, time, caridactic frequency,...) that I store in a TimeSeries Database (InfluxDB) in order to create visualizations in Grafana.
+<figure>
+    <img src="src/heatmap.png">
+    <figcaption align = "center"><b> Heatmap exemple</b></figcaption>
+</figure>
+<figure>
+    <img src="src/grafana_simple.png">
+    <figcaption align = "center"><b>Result in Grafana</b></figcaption>
+</figure>
+
+
+
 
 #### _SOON: This project is currently in private mode, I have to check that no file containing a connection cookie is present._
 
-## Timer Generator
-### _Docs to be implemented soon_
+## Microcontrollers Timer Generator
+### _Allows to generate microsecond accurate loops for microcontrollers_
+<figure>
+    <img src="src/timer_nop_generator.gif">
+    <figcaption align = "center">
+        <b>Example of code generation</b>
+    </figcaption>
+</figure>
+
 ## Balle Hit
-### _Docs to be implemented soon_
+### _Simple brick-breaking game_
+[**_See on Github_**]()
+
+<figure>
+    <img src="src/balle_hint_game.gif">
+    <figcaption align = "center"><b> Heatmap exemple (slow due to the conversion to gif)</b></figcaption>
+</figure>
+
+
 
 ## Other small programs
 
@@ -278,4 +299,5 @@ The github repository is broken down into several folders
  - Web
  - Rootme
 
+## In progress
 
