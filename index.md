@@ -21,7 +21,7 @@ On this page, you will find the list of my programming projects and a small expl
     </a>
 </p>
 
-### _The tool to monitor an online class attention rate_ 
+<h3 style="margin: 16px"><i>The tool to monitor an online class attention rate</i></h3>
 
 
 <figure style="text-align: center">
