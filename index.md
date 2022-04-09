@@ -1,17 +1,3 @@
-<head>
-    <meta charset="utf-8" />
-    <title>Louis Gobert</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RC6TBBDLY2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-RC6TBBDLY2');
-  </script>
-  </head>
-  
 # Welcome
 
 On this page, you will find the list of my programming projects and a small explanation. There will be first a presentation of my three biggest projects and then a more global project which includes all kinds of small programs created for school, Leetcode, Rootme or other.
@@ -270,6 +256,7 @@ P[3]{
 
 ## StravaUpgrade
 ### _Monitor your Strava activities_
+
 
 ### What is it ?
 This application allows us to connect to our strava account via the official Srava REST API. Then download the GPX tracks of the courses to create a heatmap. I also download different statistics (number of km run, elevation gain, time, caridactic frequency,...) that I store in a TimeSeries Database (InfluxDB) in order to create visualizations in Grafana.
