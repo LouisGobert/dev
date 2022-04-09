@@ -70,9 +70,9 @@ You can now launch the api/main.py and scraping/main.py from the backend and voi
 
 ### The developer
 
-- Breuil Alexandre | [GitHub](https://github.com/Xander-Br) | [LinkedIn](https://www.linkedin.com/in/alexandre-breuil-2003/)
-- Tatiana Dehon | [GitHub](https://github.com/Titania7)| [LinkedIn](https://www.linkedin.com/in/tatiana-dehon-62ba43198/) 
-- Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkeIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)
+Breuil Alexandre | [GitHub](https://github.com/Xander-Br) | [LinkedIn](https://www.linkedin.com/in/alexandre-breuil-2003/)
+Tatiana Dehon | [GitHub](https://github.com/Titania7)| [LinkedIn](https://www.linkedin.com/in/tatiana-dehon-62ba43198/) 
+Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkeIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)
 
 
 
@@ -249,7 +249,7 @@ P[3]{
 ```
 ### The developer, just me
 
-- Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkedIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)
+Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkedIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)
 
 
 ## Robotic Chess
@@ -307,4 +307,4 @@ The github repository is broken down into several folders
 
 ## In progress
 
-{% include https://github.com/LouisGobert/BalleHit/blob/main/README.md %}
+I am currently developing a software that will allow to have a "native" Icloud Drive file explorer on Linux (as already available on Windows)
