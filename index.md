@@ -5,12 +5,13 @@ On this page, you will find the list of my programming projects and a small expl
 ### Table of contents
   - [Odoo Hackaton - Deep Focus](#odoo-hackaton---deep-focus)
   - [Fanuc Fast Dev](#fanucfastdev)
-  - [Robotic Chess](#robotic-chess)
   - [Strava Upgrade](#stravaupgrade)
   - [Microcontrollers timer generator](#Microcontrollers-timer-generator)
   - [Balle Hit](#balle-hit)
   - [Other small programs](#other-small-programs)
   - [_In progress_](#in-progress)
+    - Icloud Drive for Linux
+    - Create the documentation for Robotic Chess 
 
 
 ## Odoo Hackaton - Deep Focus
@@ -76,7 +77,7 @@ Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkeIn](https://www.
 
 
 
-## FanucFastDev
+## Fanuc Fast Dev
 
 ### _Tool to develop faster on fanuc robots_
 FanucFastdev is a tool developed to convert a C# program into a Fanuc program (.LS).
@@ -252,11 +253,9 @@ P[3]{
 Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkedIn](https://www.linkedin.com/in/louis-gobert-889a2314b/)
 
 
-## Robotic Chess
 
-### _Docs to be implemented soon_
 
-## StravaUpgrade
+## Strava Upgrade
 ### _Monitor your Strava activities_
 
 
@@ -278,6 +277,7 @@ This application allows us to connect to our strava account via the official Sra
 
 ## Microcontrollers Timer Generator
 ### _Allows to generate microsecond accurate loops for microcontrollers_
+[**_See on Github_**](https://github.com/LouisGobert/NopTimerGenerator)
 <figure style="text-align: center">
     <img src="src/timer_nop_generator.gif">
     <figcaption align = "center">
@@ -287,7 +287,7 @@ This application allows us to connect to our strava account via the official Sra
 
 ## Balle Hit
 ### _Simple brick-breaking game_
-[**_See on Github_**]()
+[**_See on Github_**](https://github.com/LouisGobert/BalleHit)
 
 <figure style="text-align: center">
     <img src="src/balle_hint_game.gif">
@@ -308,3 +308,11 @@ The github repository is broken down into several folders
 ## In progress
 
 I am currently developing a software that will allow to have a "native" Icloud Drive file explorer on Linux (as already available on Windows)
+
+### Robotic Chess
+
+#### What is it ?
+
+It is a program with two parts: a server and a client. The client is a simple web page (developed with the React.js Framework) that allows you to play chess against the server.
+The server (developed with the django Framework) contains a MinMax algorithm that allows to find the best move to play (for the computer, enemi of the player).
+I realized this project for two CS50 courses, one teaching us the basics of Artificial Intelligence and the other one teaching us Django.
