@@ -15,13 +15,10 @@ On this page, you will find the list of my programming projects and a small expl
 
 ## Odoo Hackaton - Deep Focus 
 
-<p style="margin-bottom: 0px;">
-    <a href="https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main">
-    <img src="src/github.png" style="height: 60px">
-    </a>
-</p>
 
-<h3 style="margin: 16px"><i>The tool to monitor an online class attention rate</i></h3>
+[**_See on Github_**](https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main)
+
+### _The tool to monitor an online class attention rate_
 
 
 <figure style="text-align: center">
@@ -84,10 +81,23 @@ Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkeIn](https://www.
 
 
 ## Fanuc Fast Dev
-
 ### _Tool to develop faster on fanuc robots_
+[**_See on GitHub_**](https://github.com/LouisGobert/FanucFastDev)
+### What is it ?
 FanucFastdev is a tool developed to convert a C# program into a Fanuc program (.LS).
-[**See on Github**](https://github.com/LouisGobert/FanucFastDev)
+
+You just have to create a program with the command : 
+
+    ./Compilator -n [filename]
+
+
+This will create a new file based on a template (new file is stored in the folder "Workcell/"). You can then program robot movements, activate tools, make conditions, loops, create points, registers.
+Once your programming is finished, you can convert your C# file with the command : 
+
+    ./Compilator -b [filename]
+
+This will convert your C# file into an LS file, readable directly by Fanuc robots. You will only have to teach (learn) the different points to the robot.
+
 
 ### Exemple
 #### Input
@@ -283,7 +293,7 @@ This application allows us to connect to our strava account via the official Sra
 
 ## Microcontrollers Timer Generator
 ### _Allows to generate microsecond accurate loops for microcontrollers_
-[**_See on Github_**](https://github.com/LouisGobert/NopTimerGenerator)
+[**_See on GitHub_**](https://github.com/LouisGobert/NopTimerGenerator)
 <figure style="text-align: center">
     <img src="src/timer_nop_generator.gif">
     <figcaption align = "center">
@@ -293,7 +303,7 @@ This application allows us to connect to our strava account via the official Sra
 
 ## Balle Hit
 ### _Simple brick-breaking game_
-[**_See on Github_**](https://github.com/LouisGobert/BalleHit)
+[**_See on GitHub_**](https://github.com/LouisGobert/BalleHit)
 
 <figure style="text-align: center">
     <img src="src/balle_hint_game.gif">
@@ -304,7 +314,7 @@ This application allows us to connect to our strava account via the official Sra
 
 ## Other small programs
 
-### _[See on Github](https://github.com/LouisGobert/dev)_
+_[See on GitHub](https://github.com/LouisGobert/dev)_
 
 The github repository is broken down into several folders
  - Leetcode
