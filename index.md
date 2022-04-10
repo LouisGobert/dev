@@ -3,8 +3,8 @@ On this page, you will find the list of my programming projects and a small expl
 
 ### Table of contents
   - [Odoo Hackaton - Deep Focus](#odoo-hackaton---deep-focus)
-  - [Fanuc Fast Dev](#fanucfastdev)
-  - [Strava Upgrade](#stravaupgrade)
+  - [Fanuc Fast Dev](#fanuc-fast-dev)
+  - [Strava Upgrade](#strava-upgrade)
   - [Microcontrollers timer generator](#Microcontrollers-timer-generator)
   - [Balle Hit](#balle-hit)
   - [Other small programs](#other-small-programs)
@@ -272,7 +272,7 @@ Louis Gobert | [GitHub](https://github.com/LouisGobert) | [LinkedIn](https://www
 
 ## Strava Upgrade
 ### _Monitor your Strava activities_
-
+[**_See on GitHub_**](https://github.com/LouisGobert/StravaUpgrade)
 
 ### What is it ?
 This application allows us to connect to our strava account via the official Srava REST API. Then download the GPX tracks of the courses to create a heatmap (with [this plugin](https://github.com/erik/derive)). I also download different statistics (number of km run, elevation gain, time, caridactic frequency,...) that I store in a TimeSeries Database (InfluxDB) in order to create visualizations in Grafana.
@@ -286,9 +286,6 @@ This application allows us to connect to our strava account via the official Sra
 </figure>
 
 
-
-
-#### _SOON: This project is currently in private mode, I have to check that no file containing a connection cookie is present._
 
 ## Microcontrollers Timer Generator
 ### _Allows to generate microsecond accurate loops for microcontrollers_
