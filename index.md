@@ -14,11 +14,10 @@ On this page, you will find the list of my programming projects and a small expl
 
 
 ## Odoo Hackaton - Deep Focus 
-
+### _The tool to monitor an online class attention rate_
 
 [**_See on Github_**](https://github.com/Xander-Br/LesTouristesOdooHackathon/tree/main)
 
-### _The tool to monitor an online class attention rate_
 
 
 <figure style="text-align: center">
