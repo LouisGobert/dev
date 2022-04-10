@@ -5,7 +5,7 @@ On this page, you will find the list of my programming projects and a small expl
   - [Odoo Hackaton - Deep Focus](#odoo-hackaton---deep-focus)
   - [Fanuc Fast Dev](#fanuc-fast-dev)
   - [Strava Upgrade](#strava-upgrade)
-  - [Microcontrollers timer generator](#Microcontrollers-timer-generator)
+  - [Microcontrollers timer generator](#microcontrollers-timer-generator)
   - [Balle Hit](#balle-hit)
   - [Other small programs](#other-small-programs)
   - [_In progress_](#in-progress)
@@ -289,7 +289,7 @@ This application allows us to connect to our strava account via the official Sra
 
 ## Microcontrollers Timer Generator
 ### _Allows to generate microsecond accurate loops for microcontrollers_
-[**_See on GitHub_**](https://github.com/LouisGobert/NopTimerGenerator)
+[**_See on GitHub_**](https://github.com/LouisGobert/MicrocontrollersTimerGenerator)
 <figure style="text-align: center">
     <img src="src/timer_nop_generator.gif">
     <figcaption align = "center">
