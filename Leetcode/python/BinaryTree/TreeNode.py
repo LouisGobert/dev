@@ -1,18 +1,21 @@
+from typing import Optional
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
+        self.parent: Optional["TreeNode"] = None
+        self.explored = False
 
     def print(self):
-
         queue = [self]
 
         # TODO
 
     @staticmethod
     def getTree(num: int):
-
         t1 = None
 
         if num == 0:

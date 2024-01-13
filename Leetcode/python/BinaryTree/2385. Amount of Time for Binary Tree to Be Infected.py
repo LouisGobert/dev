@@ -10,65 +10,67 @@ from TreeNode import TreeNode
 
 
 class Solution:
-    node_count: int
-    infected_node: Set[int]
-    new_ly_infected: Set[int]
+    start: int
+    start_node: Optional[TreeNode]
+    explored_node: Set[int]
 
     def amountOfTime(self, root: Optional[TreeNode], start: int) -> int:
-        self.infected_node = set([start])
-        time_count = 0
-        self.node_count = 0
-        self.count_node(root)
+        self.start = start
+        self.explored_node = set()
+        if root is None:
+            return 0
 
-        while len(self.infected_node) != self.node_count:
-            self.new_ly_infected = set()
-            self.infect(root)
-            time_count += 1
-            print(f"Infected a t {time_count}: {len(self.infected_node)}")
-            self.infected_node.update(self.new_ly_infected)
-        return time_count
+        if root.val == start:
+            ...
 
-    def count_node(self, node: Optional[TreeNode]):
+        self.make_undirected(root, None)
+        start_node = self.found_start_node(root)
+        assert start_node is not None
+        print(f"Start node found: {start_node.val}")
+
+        max_deep = self.count_deep(start_node)
+        return max_deep
+
+    def count_deep(self, node: Optional[TreeNode]) -> int:
+        if node is None:
+            return 0
+
+        self.explored_node.add(node.val)
+        node.explored = True
+        maxx = 0
+        if node.right is not None and not node.right.val in self.explored_node:
+            maxx = max(self.count_deep(node.right) + 1, maxx)
+        if node.left is not None and not node.left.val in self.explored_node:
+            maxx = max(self.count_deep(node.left) + 1, maxx)
+        if node.parent is not None and not node.parent.val in self.explored_node:
+            maxx = max(self.count_deep(node.parent) + 1, maxx)
+
+        return maxx
+
+    def found_start_node(self, node: Optional[TreeNode]) -> Optional[TreeNode]:
+        if node is None:
+            return None
+
+        if node.val == self.start:
+            return node
+
+        n = self.found_start_node(node.left)
+        if n is not None:
+            return n
+        n = self.found_start_node(node.right)
+        if n is not None:
+            return n
+
+    def make_undirected(self, node: Optional[TreeNode], parent: Optional[TreeNode]) -> None:
         if node is not None:
-            self.node_count += 1
-            self.count_node(node.left)
-            self.count_node(node.right)
+            node.parent = parent
 
-    def infect(self, node: Optional[TreeNode]) -> bool:
-        if node is not None:
-            if node.val in self.infected_node:
-                if node.right is not None:
-                    self.new_ly_infected.add(node.right.val)
-                if node.left is not None:
-                    self.new_ly_infected.add(node.left.val)
-            if node.right is not None and node.right.val in self.infected_node:
-                self.new_ly_infected.add(node.val)
-            if node.left is not None and node.left.val in self.infected_node:
-                self.new_ly_infected.add(node.val)
-
-            if self.infect(node.left) and node.val in self.infected_node:
-                node.left = None
-            if self.infect(node.right) and node.val in self.infected_node:
-                node.right = None
-
-            if (
-                node.right is None
-                and node.left is None
-                and (node.val in self.new_ly_infected or node.val in self.infected_node)
-            ):
-                return True
-            return False
-
-        return True
+            self.make_undirected(node.right, node)
+            self.make_undirected(node.left, node)
 
 
 if __name__ == "__main__":
-    l = TreeNode(2)
-    r = TreeNode(3)
-    root = TreeNode(1, l, r)
-
     s = Solution()
-    assert s.amountOfTime(root, 1) == 1
 
     two = TreeNode(2)
     nine = TreeNode(9)
@@ -79,6 +81,10 @@ if __name__ == "__main__":
     six = TreeNode(6)
     three = TreeNode(3, ten, six)
     one = TreeNode(1, five, three)
+    #          1
+    #     5          3
+    #   -   4     10    6
+    #     9   2
     assert s.amountOfTime(one, 3) == 4
 
     # [       1,
@@ -94,3 +100,9 @@ if __name__ == "__main__":
     one = TreeNode(1, two)
 
     assert s.amountOfTime(one, 4) == 3
+
+    l = TreeNode(2)
+    r = TreeNode(3)
+    root = TreeNode(1, l, r)
+
+    assert s.amountOfTime(root, 1) == 1
